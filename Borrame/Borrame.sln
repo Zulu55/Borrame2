@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borrame.Shared", "Borrame.Shared\Borrame.Shared.csproj", "{DCD89F24-FBDA-4215-9E1D-22B9BDF304FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borrame.Backend", "Borrame.Backend\Borrame.Backend.csproj", "{AF2DDACD-6B12-42C8-94F7-627FE35ECA6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borrame.Frontend", "Borrame.Frontend\Borrame.Frontend.csproj", "{2562ACCC-B13C-4172-8B96-2D4FF73226EC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD89F24-FBDA-4215-9E1D-22B9BDF304FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD89F24-FBDA-4215-9E1D-22B9BDF304FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD89F24-FBDA-4215-9E1D-22B9BDF304FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD89F24-FBDA-4215-9E1D-22B9BDF304FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2DDACD-6B12-42C8-94F7-627FE35ECA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2DDACD-6B12-42C8-94F7-627FE35ECA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2DDACD-6B12-42C8-94F7-627FE35ECA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2DDACD-6B12-42C8-94F7-627FE35ECA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2562ACCC-B13C-4172-8B96-2D4FF73226EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2562ACCC-B13C-4172-8B96-2D4FF73226EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2562ACCC-B13C-4172-8B96-2D4FF73226EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2562ACCC-B13C-4172-8B96-2D4FF73226EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
